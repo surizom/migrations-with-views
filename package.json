@@ -1,0 +1,36 @@
+{
+  "name": "migrations-with-views",
+  "version": "1.0.0",
+  "description": "Example repository for using PostgreSQL views to ensure backwards-compatible, non-breaking migrations",
+  "main": "index.ts",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surizom/migrations-with-views.git"
+  },
+  "keywords": [
+    "PostgreSQL",
+    "SQL",
+    "migrations",
+    "views",
+    "microservices",
+    "backwards-compatible",
+    "non-breaking"
+  ],
+  "author": "Moaad Fattali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surizom/migrations-with-views/issues"
+  },
+  "homepage": "https://github.com/surizom/migrations-with-views#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "vitest": "^0.19.1"
+  },
+  "dependencies": {
+    "pg-mem": "^2.6.3",
+    "typeorm": "^0.3.7"
+  }
+}
